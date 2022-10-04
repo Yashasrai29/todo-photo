@@ -11,7 +11,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("/image")
+@RequestMapping("/api/v1/image")
 public class ImageController {
     @Autowired
     private ImageService imageService;
